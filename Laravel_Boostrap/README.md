@@ -7,6 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## How To Use Laravel UI Bootstrap V5
+- open your terminal.
+- type this command in your terminal "composer create-project your_project_name" or "laravel new your_project_name".
+- cd your_project_name
+- composer require laravel/ui
+- php artisan ui bootstrap --auth
+- npm install bootstrap@latest bootstrap-icons @popperjs/core --save-dev
+- <b>Importan To Remember, Don't delete file popper.js version 1!</b>
+- Import bootstrap icons to our framework. Edit file resources\sass\app.scss then paste this : "@import '~bootstrap-icons/font/bootstrap-icons';".
+- configuration file .env for your database name.
+- compile file with run this command : "npm install && npm run dev" <b>If your terminal asks to run it again, then run this command again</b>
+- php artisan migrate
+- run php artisan serve and open in your browser "http://127.0.0.1:8000/".
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
