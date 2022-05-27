@@ -7,6 +7,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## How To Use Laravel UI InertiaJS
+- open your terminal.
+- type this command in your terminal "composer create-project your_project_name" or "laravel new your_project_name".
+- cd your_project_name
+- composer require laravel/jetstream
+- php artisan jetstream:install inertia
+- npm install && npm run dev
+- configuration file .env for your database name.
+- php artisan migrate
+- run php artisan serve and open in your browser "http://127.0.0.1:8000/".
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
