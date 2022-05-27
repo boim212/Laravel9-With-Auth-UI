@@ -15,7 +15,8 @@
 - php artisan ui bootstrap --auth
 - npm install bootstrap@latest bootstrap-icons @popperjs/core --save-dev
 - <b>Importan To Remember, Don't delete file popper.js version 1!</b>
-- Import bootstrap icons to our framework. Edit file resources\sass\app.scss then paste this : "@import '~bootstrap-icons/font/bootstrap-icons';".
+- Import bootstrap icons to our framework. Edit file resources\sass\app.scss then paste this : 
+  -> "@import '~bootstrap-icons/font/bootstrap-icons';".
 - configuration file .env for your database name.
 - compile file with run this command : "npm install && npm run dev" <b>If your terminal asks to run it again, then run this command again</b>
 - php artisan migrate
